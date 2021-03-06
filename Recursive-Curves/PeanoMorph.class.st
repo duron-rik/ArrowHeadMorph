@@ -171,7 +171,7 @@ PeanoMorph >> order: anInteger [
 
 { #category : #calculations }
 PeanoMorph >> turn: aFloat [
-	"turn the angle of the drawing line with aFloat (+/-60 degrees) and guarantee the angel to be in the range [0..2*pi]"
+	"turn the angle of the drawing line with aFloat (+/-60 degrees) and guarantee the angle to be in the range [0..2*pi]"
 
 			
 	 angle := (angle + aFloat) rem: (Float pi)*2.
